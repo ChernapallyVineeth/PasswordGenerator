@@ -1,0 +1,94 @@
+/* Apply a smooth background */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Password Generator Card */
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+/* Title Styling */
+h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* Password Display Box */
+#password {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* Copy Button */
+.copy-btn {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.copy-btn:hover {
+  background: #2ecc71;
+}
+
+/* Slider Styling */
+.slider {
+  width: 100%;
+  margin: 15px 0;
+}
+
+/* Checkbox Styling */
+.checkbox-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.checkbox-container label {
+  font-size: 14px;
+}
+
+/* Generate Button */
+.generate-btn {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.generate-btn:hover {
+  background: #2980b9;
+}
